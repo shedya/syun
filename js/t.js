@@ -9,7 +9,7 @@ window.onload = function(){
         //在header插入layer
         var script=document.createElement("script");
         script.type="text/javascript";
-        script.src="js/layer.js";
+        script.src="https://www.layuicdn.com/layui/layui.js";
         document.getElementsByTagName('head')[0].appendChild(script); 
         
         window.layerTc = function(obj){
