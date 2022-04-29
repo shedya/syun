@@ -9,7 +9,7 @@ window.onload = function(){
         //在header插入layer
         var script=document.createElement("script");
         script.type="text/javascript";
-        script.src="https://leyun-1251032746.cosbj.myqcloud.com/layer/layer.js";
+        script.src="js/layer.js";
         document.getElementsByTagName('head')[0].appendChild(script); 
         
         window.layerTc = function(obj){
